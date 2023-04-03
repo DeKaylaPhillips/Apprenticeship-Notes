@@ -39,13 +39,13 @@ Michael Feathers
 - only one potential change (database logging, logging logic, etc) in the software's specification should be able to affect the specification of the class
 - if a class is a data container with fields regarding that entity, should only change when the data model is changed
 
-**Importance:**
+**IMPORTANCE:**
 
 - decrease potential use of incompatible modules in collaborative workspace
 - makes version control easier; commits can help understand classes and their usage
 - decreases merge conflicts and the complexity of them
 
-**Separating Different Types of Logic into Distinct Components:**
+**SEPARATING DIFFERENT TYPES OF LOGIC INTO DISTINCT COMPONENTS:**
 
 **PRINTING LOGIC:**
 
@@ -77,7 +77,7 @@ Michael Feathers
 
 - responds to use actions such as button clicks
 
-**Common Pitfalls/Anti-Patterns:**
+**PITFALLS/ANTI-PATTERNS:**
 
 Common mistakes that violate the SRP:
 
