@@ -1,10 +1,5 @@
 # GITHUB ACTIONS EXPLAINED
-<!-- 
-Questions:
-- Can I see an illustration of a workflow and its alignment with jobs and specific actions?
-- What is the extension to create a YAML file?
 
- -->
 ## What is Github Actions?
 
 - Powerful automation tool that allows you to define "workflows" for software projects
