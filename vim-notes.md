@@ -6,14 +6,35 @@
 2. Make changes to file
 3. Run command: `git commit` - this will open the Vim editor
 
-**VIM Commands:**
+## VIM Commands/Shortcuts
 
-`i` - insert/type mode
+**Basic Movement:**
 
-`Esc` - switch modes
+- h, j, k, l: move the cursor left, down, up, and right, respectively.
+- 0: move to the beginning of the current line.
+- $: move to the end of the current line.
+- ^: move to the first non-blank character of the current line.
+- G: move to the end of the file.
+- gg: move to the beginning of the file.
 
-`:wq` - save and quit
+**Editing:**
 
-`ZZ` - save and quit (if file not read-only)
+- i: insert text before the cursor.
+- a: append text after the cursor.
+- A: append text to the end of the current line.
+- o: open a new line below the current line and start inserting text.
+- O: open a new line above the current line and start inserting text.
+- d: delete text. For example, "dw" deletes a word.
+- x: delete the character under the cursor.
+- u: undo the last change.
+- Ctrl-r: redo the last undone change.
+- yy: yank (copy) the current line.
+- p: put (paste) the last yanked or deleted text after the cursor.
 
-`:q!` - exit Vim without saving changes
+**Command Mode:**
+
+- :w save the current file.
+- :q quit Vim.
+- :wq save the current file and quit Vim.
+- :q! quit Vim without saving changes.
+- :%s/pattern/replacement/g search and replace "pattern" with "replacement" throughout the file.
