@@ -8,16 +8,12 @@
 
 **VIM Commands:**
 
-`i` = insert mode
+`i` - insert/type mode
 
-- allows you to type commit message
+`Esc` - switch modes
 
-`Esc` = switch modes
+`:wq` - save and quit
 
-- exits insert mode, returns to command mode
+`ZZ` - save and quit (if file not read-only)
 
-`:wq` = save
-
-- saves commit message and exits vim
-
-`:q!` = exit Vim without saving changes
+`:q!` - exit Vim without saving changes
