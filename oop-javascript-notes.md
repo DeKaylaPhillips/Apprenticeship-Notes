@@ -105,11 +105,9 @@ class MyClass {
 }
 ```
 
-`MyClass` is the name of the class
-
-`MyClass` has a constructor function that takes two parameters
-
-`MyClass` has 2 methods --> `method1` and `method2`
+- `MyClass` is the name of the class
+- `MyClass` has a constructor function that takes two parameters
+- `MyClass` has 2 methods --> `method1` and `method2`
 
 **Imports:**
 
