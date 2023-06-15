@@ -14,13 +14,13 @@
 
 **TYPESCRIPT:**
 
-- [ ] TypeScript                -- **npm install --save-dev typescript**
+- [ ] TypeScript                -- **`npm install --save-dev typescript`**
 
 **ESLINT w/ TYPESCRIPT INTEGRATION:**
 
-- [ ] ESLint                    -- **npm install --save-dev eslint**
-- [ ] TypeScript-ESLint Parser  -- **npm install --save-dev @typescript-eslint/parser**
-- [ ] TypeScript-ESLint Plugin  -- **npm install --save-dev @typescript-eslint/eslint-plugin**
+- [ ] ESLint                    -- **`npm install --save-dev eslint`**
+- [ ] TypeScript-ESLint Parser  -- **`npm install --save-dev @typescript-eslint/parser`**
+- [ ] TypeScript-ESLint Plugin  -- **`npm install --save-dev @typescript-eslint/eslint-plugin`**
 
 *OR simply run ...*
 
@@ -32,12 +32,12 @@ npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugi
 
 **JEST:**
 
-- [ ] Jest            -- **npm install --save-dev jest**
+- [ ] Jest            -- **`npm install --save-dev jest`**
 
 **JEST w/ TYPESCRIPT INTEGRATION:**
 
-- [ ] TypeScript Jest -- **npm install --save-dev ts-jest**
-- [ ] Jest Types      -- **npm install --save-dev @types/jest**
+- [ ] TypeScript Jest -- **`npm install --save-dev ts-jest`**
+- [ ] Jest Types      -- **`npm install --save-dev @types/jest`**
 
 *OR simply run ...*
 
