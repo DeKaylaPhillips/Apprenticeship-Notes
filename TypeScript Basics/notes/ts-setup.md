@@ -87,17 +87,26 @@ jest init                 # creates the Jest configuration file
 % touch .gitignore
 ```
 
-Files Structure:
+Files Structure (Root Structure):
 
-**Root Directory**
-/.github            *contains workflow configurations, pull request templates, etc...*
-/node_modules       ***don't touch this!** -- contains everything needed to run node!*
-/src                *contains source code directories/files...*
-/tests              *contains test suite directories/files...*
-.eslintrc.cjs       *ESLint configuration file*
-.eslintignore       *ESLint configuration file*
-.gitignore          *Github configuration file*
-jest.config.ts      *Jest configuration file*
-package.json        *Project configuration file*
-package-lock.json   ***don't touch this!** --- contains project configuration information*
-tsconfig.json       *TypeScript configuration file*
+**/.github**            *contains workflow configurations, pull request templates, etc...*
+
+**/node_modules**       ***don't touch this!** -- contains everything needed to run node!*
+
+**/src**                *contains source code directories/files...*
+
+**/tests**              *contains test suite directories/files...*
+
+**.eslintrc.cjs**       *ESLint configuration file*
+
+**.eslintignore**       *ESLint configuration file*
+
+**.gitignore**          *Github configuration file*
+
+**jest.config.ts**      *Jest configuration file*
+
+**package.json**        *Project configuration file*
+
+**package-lock.json**   ***don't touch this!** --- contains project configuration information*
+
+**tsconfig.json**       *TypeScript configuration file*
